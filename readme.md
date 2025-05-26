@@ -11,7 +11,7 @@ Rodar seguintes comandos:
 - npm run dev
 - php artisan serve
 
-Informações importantes:
+# Informações importantes:
 - Nas seeders está configurado para criar um usuário admin com o e-mail admin@admin.com e senha 123456
 - Este usuário pode criar tarefas e atribuir para outros usuários, e acessar a listagem dos mesmos
 - Todos os usuários estão com a mesma senha 123456
