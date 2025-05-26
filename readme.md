@@ -1,3 +1,22 @@
+# Paso a Passo para rodar o projeto
+
+- Copiar arquivo .env.example e renomear para .env
+- Alterar configurações de acesso ao banco de dados
+
+Rodar seguintes comandos:
+- composer install
+- npm install
+- php artisan migrate
+- php artisan db:seed
+- npm run dev
+- php artisan serve
+
+Informações importantes:
+- Nas seeders está configurado para criar um usuário admin com o e-mail admin@admin.com e senha 123456
+- Este usuário pode criar tarefas e atribuir para outros usuários, e acessar a listagem dos mesmos
+- Todos os usuários estão com a mesma senha 123456
+
+
 # 🧠 Desafio Técnico - Desenvolvedor(a) Full Stack (Laravel + Blade)
 
 Bem-vindo(a)! Este é o desafio técnico para a vaga de **Desenvolvedor(a) Full Stack Laravel**. O objetivo é avaliar suas habilidades práticas com as tecnologias utilizadas no dia a dia do time.
