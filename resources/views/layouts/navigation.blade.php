@@ -17,7 +17,7 @@
                     </x-nav-link>
 
                     @if(auth()->id() == 1)
-                    <x-nav-link :href="route('tasks')" :active="request()->routeIs('tasks')">
+                    <x-nav-link :href="route('users')" :active="request()->routeIs('users')">
                         {{ __('Usuários') }}
                     </x-nav-link>
                     @endif
